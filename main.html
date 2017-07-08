@@ -1,0 +1,12 @@
+<div class="jumbotron">
+	<div class="container">
+		<h2 style="font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;">This is the main page ! {{ 2+2 }} </h2>
+		<p>This line is the description for main page.</p>
+
+		<h3>{{ input_name | uppercase }}</h3>
+		<input type="text" ng-model="input_name">
+
+		<button ng-click="printToConsole()">Add one !</button>
+
+	</div>
+</div>
